@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin.BarCodeReader.View.BarcodeList"
+             xmlns:b="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+             Title="Barcode List">
+
+    <StackLayout>
+        <ListView VerticalOptions="Center" ItemsSource="{Binding BarcodeList}" 
+                  RowHeight="60" HasUnevenRows="True">
+            <ListView.Behaviors>
+                <b:EventToCommandBehavior EventName="ItemTapped" Command="{Binding DeleteBarcodeCommand}"
+                                      EventArgsParameterPath="Item" />
+            </ListView.Behaviors>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="2*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding Code}" 
+                                       TextColor="Black" Grid.Row="0" Grid.Column="0" BackgroundColor="Aqua" />
+                            <Label Text="{Binding Country}" 
+                                       BackgroundColor="Red" TextColor="Black" Grid.Row="0" Grid.Column="1"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

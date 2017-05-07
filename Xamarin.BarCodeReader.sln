@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android", "Xamarin.BarCodeReader\Xamarin.Android\Xamarin.Android.csproj", "{08DBE262-C644-4FCF-8814-847C82DF90C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android", "BarCodeReader\Xamarin.Android\Xamarin.Android.csproj", "{08DBE262-C644-4FCF-8814-847C82DF90C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.BarCodeReader", "Xamarin.BarCodeReader\Xamarin.BarCodeReader\Xamarin.BarCodeReader.csproj", "{7D26F0D1-D562-4C1D-B1DD-5A942D81DAD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.BarCodeReader", "BarCodeReader\Xamarin.BarCodeReader\Xamarin.BarCodeReader.csproj", "{7D26F0D1-D562-4C1D-B1DD-5A942D81DAD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.UWP", "Xamarin.BarCodeReader\Xamarin.UWP\Xamarin.UWP.csproj", "{592AFCB3-4DDB-4555-A79C-A49055DFCD46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.UWP", "BarCodeReader\Xamarin.UWP\Xamarin.UWP.csproj", "{592AFCB3-4DDB-4555-A79C-A49055DFCD46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.iOS", "Xamarin.BarCodeReader\Xamarin.iOS\Xamarin.iOS.csproj", "{C2377159-CDE7-4827-8635-AFA5970C5E02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.iOS", "BarCodeReader\Xamarin.iOS\Xamarin.iOS.csproj", "{C2377159-CDE7-4827-8635-AFA5970C5E02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
